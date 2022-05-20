@@ -20,7 +20,7 @@ public class CategoryController {
 
     @GetMapping
     public List<Category> getCategories(){
-        return categoryService.getCompanies();
+        return categoryService.getgetCategories();
     }
 
     @GetMapping("/{id}")

@@ -19,7 +19,7 @@ public class ExampleController {
 
     @GetMapping
     public List<Example> getExamples(){
-        return exampleService.getExamplees();
+        return exampleService.getExamples();
     }
 
     @GetMapping("/{id}")

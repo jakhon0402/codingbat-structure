@@ -20,7 +20,7 @@ public class ExampleService {
     @Autowired
     TaskRepo taskRepo;
 
-    public List<Example> getExamplees(){
+    public List<Example> getExamples(){
         return exampleRepo.findAll();
     }
 
